@@ -7,5 +7,8 @@ public class Main {
         System.out.print("Ingrese su nombre: ");
         String nombre = sc.nextLine();
         System.out.println("Bienvenido, "+nombre);
+        System.out.println("RESTO DEL SISTEMA WIP, PRESIONAR ENTER PARA FINALIZAR");
+        sc.nextLine();
+        System.out.println("Adios, "+nombre);
     }
 }
